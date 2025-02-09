@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Loan Status</title>
+</head>
+<body>
+    <h2>Loan Status</h2>
+    <p>Name: <span th:text="${loanApplication.applicantName}"></span></p>
+    <p>Email: <span th:text="${loanApplication.email}"></span></p>
+    <p>Loan Amount: <span th:text="${loanApplication.loanAmount}"></span></p>
+    <p>Credit Score: <span th:text="${loanApplication.creditScore}"></span></p>
+    <p>Status: <span th:text="${loanApplication.status}"></span></p>
+</body>
+</html>
